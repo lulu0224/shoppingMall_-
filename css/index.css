@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+/* 头部 */
+.header{
+    height: 60px;
+    background-color: #fff;
+}
+.logobox{
+    width: 220px;
+    height: 60px;
+    background-color: #ea967a;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+.personbox{
+    display: flex;
+    justify-content: flex-end;
+}
+.personbox>a{
+    display: block;
+    margin-right: 50px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.personbox>div{
+    margin-right: 50px;
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.perinfo img{
+    width: 30px;
+    height: 30px;
+}
+
+.loginout i{
+    font-size: 24px;
+    color:#6191d1;
+}
+
+/* 主体 */
+.main{
+    background-color: #f5f5f5;
+    display: flex;
+}
+
+/* 左侧 */
+.side_nav{
+    width: 220px;
+    padding: 20px 0 ;
+    background-color: #fff;
+}
+.navicon{
+    display: none;
+    position: absolute;
+    top: -34px;
+    left: 20px
+}
+.side_nav a{
+    color: #2b2e33;
+}
+.navlist{
+    margin-left: 60px;
+   
+}
+.navicon:hover+.navlist{
+    display: block;
+}
+
+.droplist{
+    display: none;
+}
+.droplist li i{
+    color: #006800;
+}
+.navitem{
+    line-height: 60px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "宋体";
+   
+}
+.active>a{
+    color: #dde089;
+}
+.active>.droplist{
+    display: none;
+    font-size: 12px;   
+}
+.active:hover .droplist{
+    display: block;
+}
+.dropitem{
+    line-height: 30px;
+    padding-left: 15px;
+}
+
+.dropitem:hover{
+    background-color: #ea967a;
+}
+
+/* 右侧 */
+.admin_main{
+    background-color: #f5f5f5;
+    flex-grow: 1;
+}
+
+
+.main_hd{
+    padding: 0 20px;
+    line-height: 40px;
+    border-bottom: 1px solid #bababa;
+    font-size: 16px;
+    color: #b0542d;
+    font-weight: 600;
+    
+    display: flex;
+    justify-content: space-between;
+}
+.main_hd h2{
+    font-weight: 600;
+   
+}
+/* 管理内容 */
+.main_list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 15px;
+}
+.main_list li{
+    width: 23%;
+    margin: 0 1% 15px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.count{
+    padding: 19px 10px 11px;
+    color: #fff;
+    background-color: #ea967a;
+}
+.count p{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.count span{
+    font-size: 14px;
+    font-weight: 600;
+}
+.detail{
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    background-color: #d1876e;
+}

@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* 992-1200 */
+@media screen and (max-width:1199px){
+    
+}
+/* 平板设备 */
+@media screen and (max-width:991px){
+    .navitem>.droplist,.logobox,.loginout{
+        display: none;
+    }
+    .header{
+        height: 45px;
+        line-height: 45px;
+        border-bottom: 1px solid #e6e6e6;
+    }
+    .personbox>a{
+        line-height: 45px;
+    }
+    .side_nav{
+        position: absolute;
+        top: 46px;
+        left: 0;
+        width: 100%;
+        padding: 0;
+
+    }
+    .navlist{
+        margin: 20px 0;
+        text-align: center;
+        display: none;
+    }
+    .active{
+        background-color: #009788;
+       
+    }
+    .navitem{
+        line-height: 30px;
+        font-size: 14px;
+    }
+    .active a{
+        color: #fff;
+    }
+    .personbox>div{
+        line-height: 45px;
+        height: 45px;
+    }
+    .perinfo img{
+        width: 23px;
+        height: 23px;
+    }
+    .navicon{
+        display: block;
+    }
+
+    .main_list li{
+        width: 46%;
+        margin: 0 2% 15px;
+    }
+}
+/* 移动设备  */
+@media screen and (max-width:640px){
+    .main_list li{
+        width: 94%;
+        margin: 0 3% 10px;
+    }
+    .count{
+        padding-top: 11px;
+    }
+    .count p{
+        font-size: 20px;
+        margin-bottom: 11px;
+    }
+    .detail{
+        line-height: 24px;
+    }
+}

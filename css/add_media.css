@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/* 平板设备 */
+@media screen and (max-width:991px){
+    main{
+        padding: 15px 0 30px 15px;
+    }
+    .goods_info{
+        padding-right: 32px;
+    }
+    .goods_info>li{
+        width: 100%;
+    }
+    .goods_info>li p{
+        width: 100%;
+    }
+    .goods_info>li input{
+        width: 100%;
+    }
+    /* 产品分类 */
+    .goods_class p{
+        width: 100%;
+    }
+    .goods_class .check{
+        width: 100%;
+    }
+    .goods_class .check ul{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .goods_class .check li{
+        width: 45%;
+        margin-top: 10px;
+    }
+
+    /* 商品原价 */
+    .goods_price{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .goods_price li{
+        width: 100%;
+    }
+    .goods_price li p{
+        width: 100%;
+    }
+    .goods_price li input{
+        width: 94%;
+    }
+     .set{
+         padding-right: 32px;
+     }
+    .set p {
+        width: 100%;
+    }
+    .set input{
+        width: 100%;
+        margin-bottom: 6px;
+    }
+
+    .shangjia p,.pinglun p{
+        width: 100%;
+    }
+
+    .img p{
+        width: 100%;
+    }
+    /* 内容介绍 */
+.intro{
+    padding-right: 32px;
+}
+.intro p{
+    width: 100%;
+}
+.intro textarea{
+    width: 100%;
+    }
+
+}
+
+/* 移动设备 */
+@media screen and (max-width:767px){
+            header{
+                height: 30px;
+            }
+            header h1{
+                line-height: 30px;
+                font-size: 14px;
+                margin-left: 22px;
+            }
+            main{
+                padding: 23px 0 20px 22px;
+            }
+            main h3{
+                font-size: 14px;
+            }
+            main p{
+                font-size: 14px;
+            }
+            .goods_info{
+                padding-right: 27px;
+            }
+            .set{
+                padding-right: 27px;
+            }
+                /* 内容介绍 */
+            .intro{
+                padding-right: 27px;
+            }
+}

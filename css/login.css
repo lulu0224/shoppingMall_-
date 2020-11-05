@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    position: relative;
+    background: linear-gradient(#F2E3DE 15%,#F0D0C5 40%,#ECBAA9 75%, #E89B81 100%);
+
+}
+.wrap{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+/* 头部开始 */
+
+header .logo{
+    font-size: 80px;
+    color: #FF4502;
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+
+
+/* 主体开始 */
+
+main{
+width: 100%;
+padding: 38px 40px 50px;
+background-color: white;
+}
+main h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 33px;
+}
+form span{
+    font-size: 14px;
+    color: #30252D;
+    font-weight:bold;
+}
+form input{
+    width: 100%;
+    height: 36px;
+   margin: 11px 0;
+    border: 2px solid #D9D9D9;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+form input:nth-of-type(3){
+    margin-bottom: 8px;
+}
+form input:last-of-type{
+    width: 17px;
+    height: 17px;
+    margin: 0;
+    float: left;
+    margin-right: 9px;
+}
+form label {
+    display: block;
+    height: 17px;
+    line-height: 17px;
+  font-size: 12px;
+  font-weight: bold;
+}
+form button{
+    width: 100%;
+    height: 40px;
+    margin:9px 0 23px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF4500;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+form p{
+    text-align: center;
+}
+form p a{
+    font-size: 14px;
+    text-decoration: underline;
+    font-weight: bold;
+}

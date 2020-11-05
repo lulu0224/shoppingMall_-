@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>添加商品</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./assets/font/iconfont.css">
+    <link rel="stylesheet" href="./css/add.css">
+    <link rel="stylesheet" href="./css/add_media.css">
+    <script type="text/javascript" src="./js/html5shiv.js"></script>
+</head>
+<body>
+    <!-- 头部区域 -->
+    <header>
+        <h1>小U商城后台管理系统</h1>
+    </header>
+
+    <!-- 主体区域 -->
+    <main>
+        <h3>添加商品</h3>
+        <form action="">
+            <ul class="goods_info">
+                <li>
+                     <p><i>*</i>商品名称：</p>
+                    <input type="text">
+                </li>
+                <li>
+                    <p><i>*</i>简单描述：</p>
+                    <input type="text">
+                </li>
+                <li>
+                    <p><i>*</i>关键字：</p>
+                     <input type="text" placeholder="请用，分隔关键字">
+                </li>
+               
+            </ul>
+            <div class="goods_class">
+                <p><i>*</i>产品分类：</p>
+                 <div class="check">
+                    <ul>
+                        <li><input type="checkbox" name="" id="issue"><label for="issue">新品发布</label></li>
+                        <li><input type="checkbox" name="" id="promotion"><label for="promotion">限时促销</label></li>
+                        <li><input type="checkbox" name="" id="deal"><label for="deal">特价处理</label></li>
+                        <li><button>添加分类</button></li>
+                    </ul>
+                </div>
+            </div>
+           
+            <ul class="goods_price">
+                <li>
+                    <p><i>*</i>商品原价：</p>
+                    <input type="text"> 元
+                </li>
+                <li>
+                    <p><i>*</i>商品现价：</p>
+                    <input type="text"> 元
+                </li>
+                <li>
+                    <p><i>*</i>商品数量：</p>
+                    <input type="text"> 个
+                </li>
+
+            </ul>
+            <div class="set">
+                <p>设置规格：</p>
+                <input type="text">
+                <span>如“颜色,尺寸,型号“中间以英文逗号隔开</span>
+            </div>
+            <div class="shangjia">
+                <p>是否上架：</p>
+                <div>
+                <input type="checkbox" name="" id="yes"><label for="yes">是</label>
+                <input type="checkbox" name="" id="no"><label for="no">否</label>
+                </div>
+            </div>
+            <div class="pinglun">
+                <p>允许评论：</p>
+                <div>
+                <input type="checkbox" name="" id="yes"><label for="yes">是</label>
+                <input type="checkbox" name="" id="no"><label for="no">否</label>
+            </div>
+            </div>
+            <div class="img">
+                <p><i>*</i>商品名称：</p>
+                <input type="file" name="" id="">
+            </div>
+            <div class="intro">
+                <p><i>*</i>内容介绍：</p>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="btn">
+                <button>保存并提交</button>
+                <button>保存草稿</button>
+                <button>取消添加</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

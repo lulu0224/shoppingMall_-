@@ -1,0 +1,140 @@
+@charset "utf-8";
+.wrap{
+    padding: 23px 20px 0;
+    background-color: white;
+}
+/* 头部开始 */
+.wrap header{
+    border-bottom: 1px solid #CACACA;
+}
+.wrap header h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+/* 导航栏开始 */
+.wrap nav{
+    position: relative;
+    height: 70px;
+    border-bottom: 1px solid #CACACA;
+}
+.function{
+    margin: 15px 0 19px 0;
+    width: 258px;
+    height: 36px;
+    border: 1px solid #CACACA;
+}
+ .function a{
+    float: left;
+    display: block;
+    width: 64px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    background-color: #F8F8F8;
+    color: #404040;
+    font-size: 12px;
+    border-right: 1px solid #CACACA;
+}
+nav .function a:last-of-type{
+    border: none;
+}
+nav form{
+    margin: 19px 0 21px 0;
+    font-size: 16px;
+    
+}
+nav .search{
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #423F3A;
+    background-color: #C1BB6F;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+nav .search i{
+    font-size: 12px;
+    color: #870007;
+    line-height: 24px;
+    margin-left: 5px;
+}
+nav form input{
+    width: 173px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #CACACA;
+}
+nav form button{
+    vertical-align: top;
+    width: 48px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 12px;
+    background-color: #F4F4F4;
+    border: 1px solid #CCCCCC;
+}
+
+/* 主体开始 */
+main{
+    margin-top: 50px;
+}
+.table table{
+    border: 1px solid #CACACA;
+}
+.table table tr{
+    height: 36px;
+}
+.table table tr td{
+    font-size: 14px;
+    width: 180px;
+    border: 1px solid #CACACA;
+    padding-left: 20px;
+}
+.table table tr:first-of-type{
+    height: 45px;
+    text-align: center;
+    
+}
+.table table tr:first-of-type td{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 0;
+
+}
+ .table table tr td:nth-of-type(1){
+    width: 59px;
+    text-align: center;
+    padding-left: 0;
+}
+.table table tr td:nth-of-type(2){
+    width: 138px;
+}
+.table table tr td:nth-of-type(3){
+    width: 187px;
+}
+.table table tr td:nth-of-type(8){
+    width: 139px;
+}
+.table table tr td:nth-of-type(9){
+  width: 144px;
+} 
+.table table tr td:nth-of-type(9) a{
+    display: block;
+    width: 44px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #DBDBDB;
+    color: #373737;
+  } 
